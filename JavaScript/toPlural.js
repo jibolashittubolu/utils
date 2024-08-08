@@ -10,9 +10,9 @@ function toPlural( {count, single, plural} = {}) {
 };
 
 // 1 egg
-var eggCount = 1;
+let eggCount = 1;
 console.log(`
-  ${headCount} ${toPlural({
+  ${eggCount} ${toPlural({
     count: eggCount, 
     single: "egg", 
     })
@@ -20,9 +20,9 @@ console.log(`
 `);
 
 // 10 eggs
-var eggCount = 1;
+eggCount = 10;
 console.log(`
-  ${headCount} ${toPlural({
+  ${eggCount} ${toPlural({
     count: eggCount, 
     single: "egg", 
     })
@@ -30,6 +30,31 @@ console.log(`
 `);
 
 
+
+
+
+
+let headCount = 1;
+	// calling the function once
+  console.log(`
+  ${headCount} ${toPlural({
+    count: headCount, 
+    single: "person", 
+    plural: "people"
+    })
+  }
+`);
+
+headCount = 10;
+	// calling the function once
+  console.log(`
+  ${headCount} ${toPlural({
+    count: headCount, 
+    single: "person", 
+    plural: "people"
+    })
+  } 
+`);
 
 //We can also be smart to use our function to get the verb for plural words or words that change plural form 
 //E.g 
@@ -39,7 +64,7 @@ console.log(`
 //Bus are (wrong)
 //
 
-var headCount = 10;
+headCount = 1;
 	// calling the function once
   console.log(`
   ${headCount} ${toPlural({
@@ -50,6 +75,19 @@ var headCount = 10;
   } on your team
 `);
 
+
+headCount = 10;
+	// calling the function once
+  console.log(`
+  ${headCount} ${toPlural({
+    count: headCount, 
+    single: "person is", 
+    plural: "people are"
+    })
+  } on your team
+`);
+
+headCount = 10
   //calling the function multiple times
   console.log(`
   ${headCount} ${toPlural({
