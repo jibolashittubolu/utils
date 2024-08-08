@@ -1,3 +1,4 @@
+//console.clear()
 function toPlural( {count, single, plural} = {}) {
   //plural value for words such as goose - geese, mouse - mice, bus-buses etc
   //if a plural is supplied and the count exceeds 1, use the plural
