@@ -1,4 +1,4 @@
-  console.clear()
+//console.clear()
 type ToPluralParams = {
   count: number;
   single: string;
@@ -87,4 +87,4 @@ console.log(`
   })} on your team
 `);
 
-export default toPlural;
+// export default toPlural;
