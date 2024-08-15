@@ -1,4 +1,4 @@
-//console.clear()
+//console.clear();
 type ToPluralParams = {
   count: number;
   single: string;
