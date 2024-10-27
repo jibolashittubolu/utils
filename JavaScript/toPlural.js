@@ -3,7 +3,7 @@ function toPlural( {count, single, plural} = {}) {
   //plural value for words such as goose - geese, mouse - mice, bus-buses etc
   //if a plural is supplied and the count exceeds 1, use the plural
   if (count !== 1 && plural) {
-    return plural;
+    return plural; 
   }
   
   //if not, add s by default for popular words such s
