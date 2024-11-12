@@ -1,6 +1,6 @@
 //console.clear();
 type ToPluralParams = {
-  count: number;
+  count: number; 
   single: string;
   plural?: string;
 };
