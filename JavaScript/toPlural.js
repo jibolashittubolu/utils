@@ -4,7 +4,7 @@ function toPlural( {count, single, plural} = {}) {
   //if a plural is supplied and the count exceeds 1, use the plural
   if (count !== 1 && plural) {
     return plural; 
-  }
+  } 
   
   //if not, add s by default for popular words such s
   return `${single}${count === 1 ? "" : "s"}`;
