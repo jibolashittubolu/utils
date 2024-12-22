@@ -3,7 +3,7 @@ type ToPluralParams = {
   count: number; 
   single: string;
   plural?: string;
-};
+}; 
 
 function toPlural({ count, single, plural }: ToPluralParams ): string {
   // If a plural form is supplied and the count is not 1, return the plural form
