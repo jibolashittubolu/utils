@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 
 // hook to scroll to an element on render
 function useScrollOnRender() {
