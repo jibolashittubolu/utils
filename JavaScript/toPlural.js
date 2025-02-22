@@ -8,6 +8,7 @@ function toPlural( {count, single, plural} = {}) {
   //if not, add s by default for popular words such s
   return `${single}${count === 1 ? "" : "s"}`;
 };
+
 // 1 egg
 let eggCount = 1;
 console.log(`
