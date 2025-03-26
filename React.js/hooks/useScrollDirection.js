@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState(null);
-  
+
+
+    
     useEffect(() => {
         const minimumDistance = 10;
         let lastScrollY = window.pageYOffset;
