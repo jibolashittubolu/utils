@@ -23,5 +23,6 @@ function useScrollDirection() {
         }
     }, [scrollDirection]); // run when scroll direction changes
 
+    
     return scrollDirection;
 };
