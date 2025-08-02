@@ -6,6 +6,7 @@ type ToPluralParams = {
 }; 
 
 
+
 function toPlural({ count, single, plural }: ToPluralParams ): string {
   // If a plural form is supplied and the count is not 1, return the plural form
   if (count !== 1 && plural) {
