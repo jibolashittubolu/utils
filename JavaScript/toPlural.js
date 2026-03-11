@@ -29,11 +29,6 @@ console.log(`
   }
 `);
 
-
-
-
-
-
 let headCount = 1;
 	// calling the function once
   console.log(`
