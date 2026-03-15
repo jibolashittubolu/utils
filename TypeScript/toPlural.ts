@@ -15,7 +15,6 @@ function toPlural({ count, single, plural }: ToPluralParams ): string {
   return `${single}${count === 1 ? "" : "s"}`;
 }
 
-
 // 1 egg
 let eggCount = 1;
 console.log(`
